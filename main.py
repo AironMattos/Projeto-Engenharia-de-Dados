@@ -55,9 +55,6 @@ song_dict = {
 song_df = pd.DataFrame(song_dict, columns = ["song_name", "artist_name", "played_at", "timestamp"])
 
 
-print(song_df)
-
-
 def check_if_valid_data(df: pd.DataFrame) -> bool:
     # Check if dataframe is empty
     if df.empty:
